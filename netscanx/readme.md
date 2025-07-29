@@ -11,7 +11,17 @@
 
 ## 🔧 Installation
 
-```bash
-git clone https://github.com/PULSAR_002/netscanx.git
+<pre>
+git clone https://github.com/PULSAR-002/netscanx.git
 cd netscanx
-pip install .
+pip install . </pre>
+
+⚠️ You may need to run the terminal with administrator/root privileges to use netscanx, as it sends ARP packets.
+## Usage:
+<pre>
+  netscanx
+  Enter the target IP range (e.g., 192.168.0.1/24) or press Enter for default.
+  Select a network interface when prompted, or press Enter for auto-detection.
+  Scan starts — all active devices will be listed with their IP and MAC.
+  Scan results are saved to a file named netscanx_results.txt.
+</pre>
